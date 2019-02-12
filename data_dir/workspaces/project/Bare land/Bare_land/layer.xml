@@ -1,0 +1,15 @@
+<layer>
+  <name>Bare_land</name>
+  <id>LayerInfoImpl--4a31bd65:16885b2ed37:-7fd1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4a31bd65:16885b2ed37:-7fb3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4a31bd65:16885b2ed37:-7fd2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

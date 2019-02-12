@@ -1,0 +1,20 @@
+<layer>
+  <name>ECU_adm3</name>
+  <id>LayerInfoImpl--19df0035:1679dbb9fc4:-7fdd</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--19df0035:1679dbb9fc4:-7fca</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--19df0035:1679dbb9fc4:-7fca</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--19df0035:1679dbb9fc4:-7fde</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

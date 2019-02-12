@@ -1,0 +1,15 @@
+<layer>
+  <name>Shrub_land</name>
+  <id>LayerInfoImpl--4a31bd65:16885b2ed37:-7fbc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4a31bd65:16885b2ed37:-7fac</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4a31bd65:16885b2ed37:-7fbd</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

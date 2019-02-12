@@ -1,0 +1,15 @@
+<layer>
+  <name>EGY_area</name>
+  <id>LayerInfoImpl-471ac13e:16735dd8d1d:-7fcc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-471ac13e:16735dd8d1d:-7fcb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-471ac13e:16735dd8d1d:-7fcd</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,0 +1,51 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--19df0035:1679dbb9fc4:-7fd9</id>
+  <name>Ecuador</name>
+  <mode>SINGLE</mode>
+  <title>Ecuador</title>
+  <abstractTxt>Group of Ecuador layer</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl--19df0035:1679dbb9fc4:-7fff</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--19df0035:1679dbb9fc4:-7ff2</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--19df0035:1679dbb9fc4:-7fe1</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--19df0035:1679dbb9fc4:-7ff6</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--19df0035:1679dbb9fc4:-7fe5</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--19df0035:1679dbb9fc4:-7fda</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe1</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fdd</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe8</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe8</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-91.82680599999998</minx>
+    <maxx>-75.19165768191738</maxx>
+    <miny>-5.017374999999959</miny>
+    <maxy>1.454027999999937</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+</layerGroup>

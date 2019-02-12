@@ -1,0 +1,20 @@
+<layer>
+  <name>globaland</name>
+  <id>LayerInfoImpl--4a31bd65:16885b2ed37:-7fe0</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4a31bd65:16885b2ed37:-7fdf</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--4a31bd65:16885b2ed37:-7fe1</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

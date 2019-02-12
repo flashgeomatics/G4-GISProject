@@ -1,0 +1,20 @@
+<layer>
+  <name>ECU_roads</name>
+  <id>LayerInfoImpl--19df0035:1679dbb9fc4:-7fe5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--19df0035:1679dbb9fc4:-7fc5</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--19df0035:1679dbb9fc4:-7fc5</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--19df0035:1679dbb9fc4:-7fe6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

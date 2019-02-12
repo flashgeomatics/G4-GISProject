@@ -1,0 +1,15 @@
+<layer>
+  <name>Water_body</name>
+  <id>LayerInfoImpl--4a31bd65:16885b2ed37:-7fb9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4a31bd65:16885b2ed37:-7fad</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4a31bd65:16885b2ed37:-7fba</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

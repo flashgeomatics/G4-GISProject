@@ -1,0 +1,15 @@
+<layer>
+  <name>Artificialsurface</name>
+  <id>LayerInfoImpl--4a31bd65:16885b2ed37:-7f8e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4a31bd65:16885b2ed37:-7f8f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

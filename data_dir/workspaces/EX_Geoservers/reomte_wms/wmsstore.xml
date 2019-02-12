@@ -1,0 +1,20 @@
+<wmsStore>
+  <id>WMSStoreInfoImpl--19df0035:1679dbb9fc4:-7fb7</id>
+  <name>reomte_wms</name>
+  <description>this is a remote wms</description>
+  <type>WMS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--19df0035:1679dbb9fc4:-7fff</id>
+  </workspace>
+  <metadata>
+    <entry key="useConnectionPooling">true</entry>
+  </metadata>
+  <__default>false</__default>
+  <capabilitiesURL>http://mesonet.agron.iastate.edu/cgi-bin/wms/goes/conus_vis.cgi?</capabilitiesURL>
+  <user>admin</user>
+  <password>crypt1:tHQMNJxjvBLy4w6Ls/2d/fSQtsp+C3wH</password>
+  <maxConnections>6</maxConnections>
+  <readTimeout>60</readTimeout>
+  <connectTimeout>30</connectTimeout>
+</wmsStore>

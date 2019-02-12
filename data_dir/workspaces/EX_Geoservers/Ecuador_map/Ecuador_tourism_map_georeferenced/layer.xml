@@ -1,0 +1,15 @@
+<layer>
+  <name>Ecuador_tourism_map_georeferenced</name>
+  <id>LayerInfoImpl--19df0035:1679dbb9fc4:-7fd6</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--19df0035:1679dbb9fc4:-7fd7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

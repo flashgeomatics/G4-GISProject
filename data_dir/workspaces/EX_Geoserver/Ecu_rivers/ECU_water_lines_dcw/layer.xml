@@ -1,0 +1,15 @@
+<layer>
+  <name>ECU_water_lines_dcw</name>
+  <id>LayerInfoImpl-471ac13e:16735dd8d1d:-7fed</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-471ac13e:16735dd8d1d:-7ff2</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-471ac13e:16735dd8d1d:-7fee</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

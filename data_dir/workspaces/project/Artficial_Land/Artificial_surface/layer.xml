@@ -1,0 +1,20 @@
+<layer>
+  <name>Artificial_surface</name>
+  <id>LayerInfoImpl--4a31bd65:16885b2ed37:-7fd6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4a31bd65:16885b2ed37:-7fb4</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--4a31bd65:16885b2ed37:-7fb4</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4a31bd65:16885b2ed37:-7fd7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

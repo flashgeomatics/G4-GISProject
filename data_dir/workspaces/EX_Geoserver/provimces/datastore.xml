@@ -1,0 +1,23 @@
+<dataStore>
+  <id>DataStoreInfoImpl-471ac13e:16735dd8d1d:-7fdf</id>
+  <name>provimces</name>
+  <description>provimces</description>
+  <type>Shapefile</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-471ac13e:16735dd8d1d:-7fff</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="charset">ISO-8859-1</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="create spatial index">true</entry>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">Europe/Rome</entry>
+    <entry key="enable spatial index">true</entry>
+    <entry key="namespace">http://localhost:8082/geoserver/EX_Geoserver</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="url">file:///media/sf_shared_folder/Egypt/EGY_adm1.shp</entry>
+    <entry key="fstype">shape</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

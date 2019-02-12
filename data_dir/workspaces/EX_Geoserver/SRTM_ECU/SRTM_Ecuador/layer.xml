@@ -1,0 +1,15 @@
+<layer>
+  <name>SRTM_Ecuador</name>
+  <id>LayerInfoImpl-471ac13e:16735dd8d1d:-7fe1</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-471ac13e:16735dd8d1d:-7fe0</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-471ac13e:16735dd8d1d:-7fe2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

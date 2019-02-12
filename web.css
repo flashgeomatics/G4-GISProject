@@ -1,0 +1,209 @@
+/* ===================================== Css for website ====================================*/
+/* ===================================== Page background ====================================*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+ background: url(https://i.postimg.cc/mrc5bK5W/main.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  /*margin: auto;*/
+   margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* ============================= Structure of the website ===================================*/
+
+/* Style of the header */
+.header {
+  background-image: linear-gradient(to bottom right, #999966, #e0e0d1);
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  border-style: groove;
+  border-width: 8px;
+}
+
+/* Style of the body */
+
+.middle {
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+}
+
+.collapsible {
+ 
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  
+}
+
+/* Style of the footer */
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  background-color: #595959;
+  opacity: 0.7;
+  text-align: left;
+  color: white;
+  font-size: 14px;
+  width: 100%;
+  padding:30px;
+  margin: auto;
+  
+}
+.refrencess {
+  position: relative;
+  top: -50px;
+  left:1500px;
+  }
+  .refrencess1 {
+  position: absolute;
+  bottom: 0px;
+  right:180px;
+  }
+  .refrencess3{
+  position: absolute;
+  bottom: -365px;
+  right:180px;
+  }
+/*==================================== Navigation bar =======================================*/
+
+.Navigationbar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.navigation_ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a6a6a6;
+}
+
+.navigation_li {
+  float: left;
+}
+
+.navigation_li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation_li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #00664d;
+}
+
+/* ================================= Buttons on the home page ==============================*/
+.button {
+  background-color: #00664d;
+  opacity: 0.7;
+  border: none;
+  border-radius: 15px;
+  color: white; /* color of the text */
+  padding: 20px 100px;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button:hover { /*Shadow on the button*/
+  background-color: #00664d;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:active { /*Shadow outside the button*/
+  background-color: #00664d;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
+
+/* ====================================== Style of the text ========================================*/
+.Text {
+  font-family: "Arial", Helvetica, sans-serif;
+  text-align: justify;
+  border-style: solid;
+  border-width: 1px;
+  padding: 25px 25px;
+  background-color: white;
+
+  }
+
+  .firstparagraph {
+    text-indent: 50px;
+    margin-left: 50px;
+    margin-right: 10px;
+  }
+
+  ul {
+     line-height: 1.8;
+  }
+
+  .illustration_text {
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+  }
+
+  .illustration_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .ha {
+    font-size: 40px;
+    text-decoration: underline;
+  }
+
+  .hb {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+    .hc {
+    font-size: 16px;
+    text-indent: 50px;
+  }

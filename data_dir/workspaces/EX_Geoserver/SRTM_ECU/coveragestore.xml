@@ -1,0 +1,12 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-471ac13e:16735dd8d1d:-7fe3</id>
+  <name>SRTM_ECU</name>
+  <description>SRTM_ECU</description>
+  <type>ArcGrid</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-471ac13e:16735dd8d1d:-7fff</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:///media/sf_shared_folder/GeoServer_data/SRTM/SRTM_Ecuador.asc</url>
+</coverageStore>

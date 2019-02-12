@@ -1,0 +1,15 @@
+<layer>
+  <name>conus_vis_1km_900913</name>
+  <id>LayerInfoImpl-471ac13e:16735dd8d1d:-7fe5</id>
+  <type>WMS</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+  </defaultStyle>
+  <resource class="wmsLayer">
+    <id>WMSLayerInfoImpl-471ac13e:16735dd8d1d:-7fe6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
