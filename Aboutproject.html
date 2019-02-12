@@ -1,0 +1,116 @@
+<!--=================================== Header ============================================-->
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+
+<head>
+	<title>WebGIS of group4</title>
+	<script src="main_web.js"></script>
+	<link rel="stylesheet" href="web.css">
+</head>
+<!--================================= Body =================================================-->
+<body>
+	<!-- Header of the page -->
+	<div class="header">
+		<h1>WebGIS of group 4</h1>
+	</div>
+
+	<!-- Navigation bar -->
+	<div class="Navigationbar">	
+		<ul class="navigation_ul">
+			<li class="navigation_li"><a class="active" href="http://localhost/project-openlayers/Home.html">Home</a></li>
+			<li class="navigation_li"><a href="http://localhost/project-openlayers/Goalproject.html">Goal of the project</a></li>
+			<li class="navigation_li"><a href="http://localhost/project-openlayers/OpenlayerMap.html">See the map</a></li>
+		</ul>
+	</div>
+
+	<!-- Features on the webpage -->
+	<div class="Text">
+		<h2 class="ha">About the project </h2>
+		<h4 class="hb"> Part 1 : Collecting Land cover data </h4>
+		<h5 class="hc"> Data Acquisition planning : </h5>
+		<p class="firstparagraph"> The first part of the project consists to collect data of the city of Milano. The mission is to collect 60 points distributed in the North-West of Milano (figure 1). The points provided are only known with their identification number “id” but thanks to QGIS it’s possible to compute the planar coordinates X and Y. </p>
+
+		<br>
+		<div>
+			<img src="https://i.postimg.cc/GtRY5syS/Zone4.png" class="illustration_image">
+			<p class="illustration_text"> Figure 1: Assigned zone with 60 points distributed on the North-West of Milano (purple area). </p>
+		</div>
+		<br>
+
+		<p class="firstparagraph"> The first thing we did is to divide our zone in 3 sub-zones, each of them assigned to one person. Each zone contains around 20 points. Indeed, several zones were far from subway,bus or train lines, so the time spend by each member become unequal. To respect the equity of the time survey, more the zone is far from public transports, lower the number of points is, but the variation is not bigger than 3 points (figure 2). </p>
+
+		<br>
+		<div>
+			<img src="https://i.postimg.cc/BQqH5Hsj/Sub-zones.png" class="illustration_image">
+			<p class="illustration_text"> Figure 2: North-West area divided in 3 parts according to the Milan metro lines. </p>
+		</div>
+		<br>
+
+		<p class="firstparagraph"> The survey itself consists to reach the location of the points thanks our mobile phone and Google MyMaps. From QGIS we can export the new coordinates of the points into a .csv file and load it on Google MyMaps. When the point is reached, we must take one photo in the North, East, South and West direction. In order to take the photos in the right direction, we used a compass (real one or a mobile application). The photos must be clear, in other words photos musn’t be out of focus and must be taken during the day. One another important thing to consider is the privacy of people: for ethical and legal reasons we can’t take photos of the inside of private properties or people themselves. Penetrating private properties without the permission of concerned people is also not allowed. That means we have to find another solution for acquiring photos, otherwise we must ask another location of a new point. </p>
+
+		<p class="firstparagraph"> Some points were problematic because of their location. Several points were difficult or impossible to reach for two main reasons: one of them is that some points fall inside private properties, so we had to take the photos from another point as close as possible from the original point. The other reason is that some points are far from public transports and the possibilities to reach them are limited (for example a point located on the border of the highway and far from the closest train/subway/bus station). </p>
+
+		<br>
+
+		<h5 class="hc"> Processing with Land Cover Collector : </h5>
+		<p class="firstparagraph"> By using the Land Cover Collector application developed by Politecnico di Milano (Environmental and Civil Engineering Department), we have to describe the surveyed points by 4 different features: </p>
+
+		<ul>
+			<li> The classification of the point i.e. the type of the terrain (forest, artificial surface, grassland, wetland, etc.). </li>
+			<li> The degree of certainty for the point (between 20% and 100%), i.e. the degree of certainty we have for the classification and the location of the point. </li>
+			<li> Some comments if we need to specify some details about the points (for example if the effective point is shifted from the theoretical point). </li>
+			<li> The 4 photos in North, East, South and West direction. </li>
+		</ul>
+
+		<p class="firstparagraph">For further information, please check the website of the Land Cover Collector for computers. It's also available on mobile phone by using the dedicated application. The land cover collector application shows all the contributions realized by all the contributors. All the data stored  have to be used and displayed inside the map. Therefore we need to download data in the JSON format from the application. </p>
+		<br>
+
+
+		<h4 class="hb"> Part 2 : Website implementation </h4>
+		<h5 class="hc"> Basic pages : </h5>
+
+		<p class="firstparagraph">The pages have been implemented from scratch as it was a challenge to improve our skills using HTML, CSS and JavaScripts.The Website consists of 4 pages as following:</p>
+		<p>&nbsp; &nbsp;1- The home page.</p>
+		<p>&nbsp; &nbsp;2- The Goal of the project page.</p>
+		<p>&nbsp; &nbsp;3- About the project page.</p>
+		<p>&nbsp; &nbsp;4- The map page.</p>
+
+	    <br>
+
+		<h5 class="hc"> The data used : </h5>
+
+		<ul>
+			<li>The collected data in Geojson format.</li>
+			<li>GlobeLand30 of 2010.</li>
+			<li>Open Street maps.</li>
+			<li>Bing Maps.</li>
+			<li>Stamen Maps.</li>
+		</ul>
+
+		<br>
+
+		<h5 class="hc"> Methodology : </h5>
+		<p class="firstparagraph"> First, the collected data has been converted from the Geojson format into shapefile using a python script. By using QGIS a classification has been made to the data shapefile depending on the class of each point. Finally, separating each class into separate shapefiles with specific SLD style for each shapefile.</p>
+		<p class="firstparagraph">The second stage is to publish the shapefiles as well as the GlobeLand30 as WFS and WMS by using GeoServer.</p>
+		<p class="firstparagraph">For the Base maps, Open street maps,Bing maps, and Stamn maps have been used.</p>
+		<p class="firstparagraph">Finally by using Sublime Text as text editor and edit HTML, CSS and JAVASCRIPT files for the geo-web creation, by the help of some libraries like OpenLayers which provide us also with a gallery full of examples that can help to create a geo-web.After defining the WMS for the base maps, the need to add some controls ex. zoom in and out, scalebar,..etc.As we creating geo-web the legend is a must, for creating the legend as it is not included in the OpenLayers Libraries so that ol-layerswitcher has been used.</p>
+		<p class="firstparagraph">To add the WFS layers, AJAX(Asynchronous JavaScript and XML) was required to get features from the GeoServer layers, to do that JQuery was used. For displaying the attribute data and images for the observed points, a Popup has added to be displayed once you click on the point. The popup itself is created using Bootstrap which is already part of the OpenLayers libraries.</p>
+		<p class="firstparagraph"></p>
+	</div>
+</div>
+<br>
+<!-- Footer of the page -->
+		<div class="footer">
+		<div>
+			<p>Publishers: ABDELGAFAR Omar, FAKHERIFARD Katayoun, DIDIER Guillaume </p>
+			<p>Created during the GIS course, Geoinformatics program, School of Civil, Environmental and Land Management Engineering</p>
+		</div>
+		<div class="refrencess">
+			<a href="https://www.polimi.it/en/">
+			<img src="https://i.postimg.cc/ZnPQG3D9/polimi.png" alt="https://www.polimi.it/en/" style="width:140px;height:42px;border:0"></a>
+		</div>
+
+</body>
+
+</html>
